@@ -1,0 +1,144 @@
+#content {
+    background: #101010 !important;
+}
+
+header.smaller.scroll-light, header.header-mobile.header-light, .box-url,
+body, .de_tab .de_nav li {
+    background: #1c1c1c !important;
+}
+
+header.header-mobile.header-light #menu-btn {
+    color: #b1b1b1;
+}
+
+.modal-content {
+    background-color: #1c1c1c !important;
+}
+
+.nft__item {
+    background: #1c1c1c !important;
+    border: solid 1px #000 !important;
+}
+
+header.smaller.header-light, header.header-mobile.header-light {
+    border-bottom: solid 1px #606060 !important;
+}
+
+h2, .nft__item h4, .nft__item_price span, .nft-item-price span,
+.nft_coll h4, .author_list_info a, .nft_attr h4,
+footer .widget h5, .opt-create h3, .item_info h6,
+.profile_name h4, .box-url-label, .box-url h4, .field-set h5 {
+    color: #727272 !important;
+}
+
+.modal-body h3, .modal-body h6 {
+    color: #727272 !important;
+}
+
+.modal-body .form-control {
+    background-color: #2a2a2a !important;
+    border: 1px solid #1a1a1a;
+}
+
+.modal-body b {
+    color: #c3c3c3 !important;
+}
+
+.author_list_pp img {
+    height: 50px !important;
+    object-fit: cover;
+}
+
+.nft_coll_pp img {
+    height: 60px !important;
+    object-fit: cover;
+    border: 4px solid #1c1c1c !important;
+    background: #1c1c1c !important;
+}
+
+.nft_coll {
+    border: 1px solid #1c1c1c !important;
+    background: #1c1c1c !important;
+}
+
+footer.footer-light {
+    background: #1c1c1c !important;
+    border-top: solid 1px #1c1c1c;
+    color: #727272 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white !important;
+}
+
+.item_info_counts>div i {
+    color: rgb(107 107 108);
+}
+
+.d_coll .profile_avatar img {
+    border: 5px solid #101010;
+}
+
+.de_tab .de_nav li.active span, .de_tab .de_nav li span {
+    color: #727272 !important;
+}
+
+.form-control {
+    color: white !important;
+    background: transparent !important;
+}
+
+#quick_search {
+    color: white !important;
+}
+
+.quick_search_div {
+    position: relative;
+    margin-left: 30px;
+    display: block;
+}
+
+@media screen and (max-width: 992px) {
+    .quick_search_div {
+        display: none;
+    }
+}
+
+.quick_search-wrapper {
+    position: absolute;
+    width: 100%;
+    background: #1c1c1c;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.quick_search-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.quick_search-wrapper>div {
+    padding: 10px;
+}
+
+.quick_search-wrapper a:first-child {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 12px;
+}
+
+.quick_search-wrapper a {
+    color: white !important;
+    padding: 0 10px;
+    margin-bottom: 13px;
+}
+
+.quick_search-wrapper .img-wrapper {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.quick_search-wrapper .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
