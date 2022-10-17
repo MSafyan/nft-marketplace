@@ -1,4 +1,4 @@
-import axios from './apiCore';
+import axios, { getJwt } from './apiCore';
 import { errorHandler } from '../helper/errorhandler';
 
 export default class Api {
@@ -60,6 +60,17 @@ export default class Api {
 	static getProfileMe = async () => {
 		try {
 			const res = await axios.get(`/api/v1/user/profile/me`);
+			return res;
+		} catch (error) {
+			// errorHandler(error.response.data);
+			return error.response.data;
+		}
+	};
+
+	// Get All NFTs API
+	static jwtAsCookie = async (token) => {
+		try {
+			const res = await axios.get(`/api/v1/user/JwtAsCookie/${token}`);
 			return res;
 		} catch (error) {
 			// errorHandler(error.response.data);
